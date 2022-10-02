@@ -1,0 +1,352 @@
+/* ini adalah style sheet untuk nev coco */
+
+.clearleft {
+  clear: left;
+}
+.clearright {
+  clear: right;
+}
+.clearboth {
+  clear: both;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 14px/28px arial, sans-serif;
+}
+
+.whatsapp img {
+  width: 70px;
+  position: fixed;
+  top: 500px;
+  left: 1250px;
+}
+
+header {
+  width: 100%;
+  height: 650px;
+  background-image: url(../assets/img/hero_background1.jpg);
+  background-size: cover;
+  background-position: 0px 640px;
+}
+
+header .nav-brand img {
+  width: 230px;
+  margin-top: -85px;
+  margin-left: -40px;
+  float: left;
+}
+
+header .nav-link ul {
+  padding-top: 20px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+header .nav-link ul li {
+  display: inline-block;
+}
+
+header .nav-link ul li a {
+  padding: 10px;
+  margin: 0 10px;
+  color: black;
+  font-weight: 700;
+}
+
+header .nav-link ul li .nav-button {
+  display: none;
+}
+
+header .head-desc h1 {
+  margin-top: 100px;
+  margin-left: 20px;
+  font-size: 50px;
+  color: lightgray;
+}
+
+header .head-desc h4 {
+  color: lightgray;
+  width: 50%;
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+/* about styling */
+main .about {
+  padding-top: 50px;
+  width: 75%;
+  margin: auto;
+}
+
+main .about .title h1 {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main .about .content .col-1 {
+  width: 45%;
+  float: left;
+}
+
+main .about .content .col-2 {
+  float: right;
+  width: 45%;
+}
+
+main .about .content .col-2 img {
+  width: 400px;
+  border-radius: 5px;
+  float: right;
+  margin-top: 50px;
+}
+
+/* catalog styling */
+main .catalog {
+  padding-top: 50px;
+  margin: auto;
+  width: 90%;
+}
+
+main .title h1 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+/* catalog 1 */
+main .catalog .content .col-1 {
+  width: 49% !important;
+  float: left;
+  margin-bottom: 50px;
+}
+
+main .catalog .content .col-1 img {
+  width: 250px !important;
+  float: left;
+  margin-top: 50px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+main .catalog .content .col-1 .desc-col {
+  float: right;
+  width: 300px;
+}
+main .catalog .content .col-1 .desc-col h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* catalog 2 */
+main .catalog .content .col-2 {
+  width: 49% !important;
+  float: right;
+  margin-bottom: 50px;
+}
+
+main .catalog .content .col-2 img {
+  float: left;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+main .catalog .content .col-2 .desc-col {
+  float: right;
+  width: 300px;
+}
+main .catalog .content .col-2 .desc-col h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* catalog 3 */
+main .catalog .content .col-3 {
+  width: 49%;
+  float: left;
+}
+
+main .catalog .content .col-3 img {
+  width: 250px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+main .catalog .content .col-3 .desc-col {
+  float: right;
+  width: 300px;
+}
+
+main .catalog .content .col-3 .desc-col h2 {
+  font-size: 25px !important;
+  font-weight: 600;
+}
+
+/* catalog 4 */
+main .catalog .content .col-4 {
+  width: 49%;
+  float: right;
+}
+
+main .catalog .content .col-4 img {
+  float: left;
+  width: 250px;
+  margin-left: 10px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+main .catalog .content .col-4 .desc-col {
+  width: 300px;
+  float: right;
+}
+
+main .catalog .content .col-4 .desc-col h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* gallery styling */
+main .gallery {
+  width: 75%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+main .gallery .title h1 {
+  font-weight: 600;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+main .gallery .content p {
+  width: 75%;
+  margin: auto;
+}
+
+main .gallery .content .gallery-img img {
+  float: left;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* team styling */
+main .team {
+  padding-top: 50px;
+  width: 75%;
+  margin: auto;
+}
+
+main .team .title h1 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main .team .content h1 {
+  text-align: center;
+}
+
+/* footer styling */
+footer {
+  margin-top: 50px;
+  width: 100%;
+  color: #eaeaea;
+  background-color: #222;
+}
+
+footer .title h1 {
+  text-align: center;
+  padding: 10px;
+  padding-top: 100px;
+  font-size: 45px;
+}
+
+footer .content {
+  width: 90%;
+  margin: auto;
+}
+
+footer .content .col-1 {
+  width: 45%;
+  margin-top: 50px;
+  float: left;
+}
+
+footer .content .col-1 h1 {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+footer .content .col-1 h2 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+footer .content .col-1 p {
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+footer .content .col-1 .socialmedia-col svg {
+  margin-right: 30px;
+}
+
+footer .content .col-2 {
+  width: 45%;
+  float: right;
+  margin-top: 50px;
+}
+
+footer .content .col-2 iframe {
+  border-radius: 10px;
+}
+
+footer .copyright {
+  margin-top: 50px;
+  width: 100%;
+  background-color: dimgray;
+}
+
+footer .copyright p {
+  font-size: 17px;
+  padding: 15px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+/* responsive for phone <487px */
+@media screen and (max-width: 487px) {
+  header img {
+    position: absolute;
+    padding-top: 5px;
+  }
+
+  header .nav-link ul li a.nav-list {
+    display: none;
+  }
+
+  header .nav-link ul li .nav-button {
+    margin-top: -10px;
+    display: block;
+  }
+
+  header .head-desc h1 {
+    width: 80%;
+    margin-top: 100px;
+    font-size: 30px;
+    color: darkslategray;
+  }
+
+  header .head-desc h4 {
+    width: 60%;
+    font-size: 15px;
+    color: darkslategray;
+  }
+}
