@@ -13,7 +13,17 @@
 body {
   margin: 0;
   padding: 0;
-  font: 14px/28px arial, sans-serif;
+  font: 18px/28px arial, sans-serif;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: auto;
+  float: left;
+  margin-top: -75px;
+  margin-left: -40px;
 }
 
 .whatsapp img {
@@ -61,8 +71,9 @@ header .nav-link ul li .nav-button {
 
 header .head-desc h1 {
   margin-top: 100px;
-  margin-left: 20px;
-  font-size: 50px;
+  margin-left: 150px;
+  font-size: 60px;
+  width: 45%;
   color: lightgray;
 }
 
@@ -213,7 +224,7 @@ main .catalog .content .col-4 .desc-col h2 {
 
 /* gallery styling */
 main .gallery {
-  width: 75%;
+  width: 77%;
   margin: auto;
   padding-top: 50px;
 }
@@ -239,7 +250,7 @@ main .gallery .content .gallery-img img {
 /* team styling */
 main .team {
   padding-top: 50px;
-  width: 75%;
+  width: 95%;
   margin: auto;
 }
 
@@ -250,6 +261,67 @@ main .team .title h1 {
 }
 
 main .team .content h1 {
+  text-align: center;
+}
+
+main .team .content img {
+  width: 220px;
+  border-radius: 50%;
+}
+
+main .team .content .col-1 {
+  width: 22%;
+  float: left;
+  margin-right: 35px;
+  text-align: center;
+}
+main .team .content .col-1 h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+main .team .content .col-1 p {
+  font-size: 15px;
+  text-align: left;
+}
+main .team .content .col-2 h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+main .team .content .col-2 p {
+  font-size: 15px;
+  text-align: left;
+}
+main .team .content .col-3 h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+main .team .content .col-3 p {
+  font-size: 15px;
+  text-align: left;
+}
+main .team .content .col-4 h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+main .team .content .col-4 p {
+  font-size: 15px;
+  text-align: left;
+}
+main .team .content .col-2 {
+  width: 22%;
+  float: left;
+  margin-right: 35px;
+  text-align: center;
+}
+main .team .content .col-3 {
+  width: 22%;
+  float: left;
+  margin-right: 35px;
+  text-align: center;
+}
+main .team .content .col-4 {
+  width: 22%;
+  float: left;
   text-align: center;
 }
 
@@ -323,6 +395,10 @@ footer .copyright p {
 
 /* responsive for phone <487px */
 @media screen and (max-width: 487px) {
+  p {
+    font-size: 14px;
+  }
+
   header img {
     position: absolute;
     padding-top: 5px;
@@ -342,11 +418,132 @@ footer .copyright p {
     margin-top: 100px;
     font-size: 30px;
     color: darkslategray;
+    margin-left: 20px;
   }
 
   header .head-desc h4 {
     width: 60%;
     font-size: 15px;
     color: darkslategray;
+  }
+
+  /* about styling for android */
+  main .about {
+    width: 90%;
+  }
+
+  main .about .content .col-1 {
+    float: none;
+    width: 100%;
+  }
+
+  main .about .content .col-2 {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  main .about .content .col-2 img {
+    width: 300px;
+    margin-top: 10px;
+    float: none;
+  }
+
+  main .catalog .title h1 {
+    margin-top: 50px;
+  }
+
+  main .catalog .content .col-1 {
+    float: none;
+  }
+  main .catalog .content .col-1 img {
+    float: none;
+  }
+  main .catalog .content .col-1 .desc-col {
+    float: none;
+  }
+
+  main .catalog .content .col-2 {
+    float: none;
+  }
+  main .catalog .content .col-2 img {
+    float: none;
+  }
+  main .catalog .content .col-2 .desc-col {
+    float: none;
+  }
+
+  main .catalog .content .col-3 {
+    float: none;
+  }
+  main .catalog .content .col-3 img {
+    float: none;
+  }
+  main .catalog .content .col-3 .desc-col {
+    float: none;
+  }
+
+  main .catalog .content .col-4 {
+    float: none;
+  }
+  main .catalog .content .col-4 img {
+    float: none;
+  }
+  main .catalog .content .col-4 .desc-col {
+    float: none;
+  }
+
+  main .gallery {
+    width: 100%;
+  }
+  main .gallery .content p {
+    width: 90%;
+    font-size: 14px;
+  }
+  main .gallery .content .gallery-img {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  main .team .content .col-1,
+  main .team .content .col-2,
+  main .team .content .col-3,
+  main .team .content .col-4 {
+    float: none;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 75px;
+  }
+
+  footer .title h1 {
+    padding-top: 20px;
+    font-size: 35px;
+  }
+
+  footer .content .col-1 {
+    float: none;
+    width: 100%;
+  }
+
+  footer .content .col-1 h1 {
+    font-size: 30px;
+  }
+
+  footer .content .col-1 h2 {
+    font-size: 20px;
+  }
+
+  footer .content .col-2 {
+    width: 100%;
+    float: none;
+  }
+
+  footer iframe {
+    width: 100%;
+  }
+
+  footer .copyright p {
+    font-size: 13.5px;
   }
 }
